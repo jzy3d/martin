@@ -1,0 +1,11 @@
+.toggleIntershipsPanel, .toggleHobbiesPanel {
+    margin:5px 0;
+    display:none;
+}
+
+toggleinternshipsbutton, togglehobbiesbutton {
+	border-bottom:1px solid #ccc;
+	position:relative;
+	cursor:pointer;
+    color: #f43e06;
+}

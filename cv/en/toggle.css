@@ -1,0 +1,20 @@
+.toggleIntershipsPanel, .toggleHobbiesPanel {
+    margin:5px 0;
+    display:none;
+}
+
+toggleinternshipsbutton, togglehobbiesbutton {
+	border-bottom:1px solid #ccc;
+	position:relative;
+	cursor:pointer;
+    color: #f43e06;
+}
+
+.orange{
+    color: #f43e06;
+}
+
+.orange a{
+    color: #f43e06;
+	text-decoration:underline;
+}
