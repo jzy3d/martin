@@ -37,7 +37,7 @@ A:hover { text-decoration: underline; text-decoration: bold; color:#888888; }
     vertical-align: center;
 }
 .headeridentity {
-    vertical-align: bottom;
+    vertical-align: top;
 }
 
 .headerbaseline {
@@ -50,7 +50,7 @@ A:hover { text-decoration: underline; text-decoration: bold; color:#888888; }
 }
 
 .headertitlesecond {
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .objective {
@@ -109,7 +109,7 @@ A:hover { text-decoration: underline; text-decoration: bold; color:#888888; }
     text-decoration: underline;
 }
 
-/* Layout of Education boxes */ 
+/* Layout of Education boxes */
 .school {
     padding-top: 5px;
     font-size: 15px;
@@ -125,6 +125,37 @@ A:hover { text-decoration: underline; text-decoration: bold; color:#888888; }
     padding-top: 0px;
     text-align: justify;
 }
+
+.missions{
+    table-layout: fixed;
+    width: 100%;
+
+/*    border: 1px solid #ccc;
+    border-radius: 3px;*/
+
+    border-spacing: 25px 10px;
+}
+
+.mission_logo_cell{
+  /*display:table-cell; */
+  vertical-align:middle; text-align:center
+}
+
+.mission_logo{
+  width: 80px;
+}
+
+.mission_name{
+  text-align: center;
+}
+
+.mission_desc{
+  text-align: justify;
+  vertical-align: text-top;
+}
+
+
+
 
 /* Layout of Personal projects */
 .date {
@@ -155,4 +186,3 @@ A:hover { text-decoration: underline; text-decoration: bold; color:#888888; }
 .widthSixtyPercent{
     width: 60%;
 }
-
