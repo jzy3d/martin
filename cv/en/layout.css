@@ -88,6 +88,10 @@ A:hover { text-decoration: underline; text-decoration: bold; color:#888888; }
 .right {
     float: right;
 }
+.top {
+  vertical-align: top;
+}
+
 
 /* Layout of Experience boxes */
 .company {

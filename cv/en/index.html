@@ -11,7 +11,7 @@
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script type="text/javascript" src="toggle.js"></script>
 
-
+    <link rel="icon" href="martin-octo.jpeg">
 </head>
 
 <body><div class="pagelayout">
@@ -22,13 +22,13 @@
 <table width="100%" border="0">
 <tr>
 	<td class="headerphoto">
-		<img src="martin.jpeg" alt="Imagine me, smiling"/>
+		<img src="martin-octo.jpeg" alt="Imagine me, smiling" width="100"/>
 	</td>
 	<td class="headeridentity">
 		<table>
 		    <tr><td>Martin Pernollet</td></tr>
-		    <tr><td><small>martin [dot] pernollet [at] gmail [dot] com<small></td></tr>
-		    <tr><td><small>35 years old (March, 20th 1980)</td></tr>
+		    <tr><td><small>martin [dot] pernollet [at] protonmail [dot] com<small></td></tr>
+		    <tr><td><small>40 years old (March, 20th 1980)</td></tr>
 		    <tr><td><small>Paris, France</td></tr>
 		</table>
 	</td>
@@ -37,7 +37,7 @@
             <!-- headline & objectives -->
             <tr><td align="right">
                 <div class="headertitlemain">
-                    Software Engineer
+                    Software Engineering Manager
                 </div>
                 <div class="headertitlesecond">
                     Small & big data services<br>
@@ -46,14 +46,14 @@
             </td></tr>
 
             <!-- links -->
-            <tr><td align="right" valign="bottom">
+            <!--<tr><td align="right" valign="bottom">
                 <table>
                     <tr>
                         <td><a href="files/Curriculum%20Vitae%20-%20Martin%20Pernollet.pdf"><img src="images/pdf.png" title="The 1-page version in PDF format" class="imagelink" alt="The 1-page version in PDF format"/></a></td>
                         <td><a href="files/Curriculum%20Vitae%20-%20Martin%20Pernollet.docx"><img src="images/docx.png" title="The 1-page version in DOCX format" class="imagelink" alt="The 1-page version in DOCX format"/></a></td>
                     </tr>
                 </table>
-            </td></tr>
+            </td></tr>-->
         </table>
     </td>
 </tr>
@@ -65,45 +65,109 @@
 
 <div class="box">
     <div>
-        <div class="right period">Since 2013</div>
+        <div class="right period">2016 to 2021</div>
+        <div class="left company">BioSerenity</div>
+    </div>
+    <p>
+I spent 5 years building <a href="https://www.bioserenity.com/en/landing-services/">BioSerenity</a>'s Cloud solution for recording, analyzing and visualizing health data (EEG, ECG, etc)
+acquired by smart wearables : <a href="https://www.bioserenity.com/en/neuro/">caps</a> for recording brain disorder and <a href="https://www.bioserenity.com/en/cardiology/">t-shirts</a> for cardiac diseases,
+equipped with an IOT device, controlled by a mobile application. Our product allow doctors to monitor and diagnose patient remotely in near real time, with the help of algorithms helping to analyse multiple days of multi-channel medical data.
+</p>
+<p>
+I grew a team from 4 to 20 developers building robust and secured solutions validating several regulatory requirements on the french
+and american markets.
+</p>
+The 5 pilars of my activity were
+<ul>
+<li><b>Architecture</b> of 15 micro-services, based on AWS and HDS based infrastructure, using a state of the art software factory.
+<li><b>Management</b> of a 20 peoples team (web developers, data engineers, QAs and system administrators), recruitement, thinking and evolving the organisation of the company.
+<li><b>Documentation</b> of ISO 62304 medical software being part of an ISO 13485 medical device, CE Marked, FDA approved, claiming feature validated by ISO 60601-2-47 (among others).
+<li><b>Planning</b> of multiple products releases in coordination with other technical teams (firmware, hardware, mobile, etc), mixing agile and V cycle.
+<li><b>Financial</b> reponsability of 1.2M€ budget for human resources and 600k€ for platforms & contractors.
+</ul>
+
+<p class="techno">
+  Keywords : Jira, Gitlab, Jenkins, Nexus; Java Spring Boot, Angular, Ansible, Terraform, Postgresql, Mongodb, Kafka, RabbitMQ
+</p>
+
+</div>
+
+<div class="box">
+    <div>
+        <div class="right period">2013 to 2016</div>
         <div class="left company">OCTO Technology</div>
     </div>
     <p>
       Working in the BigData / Analytics departement, I help my clients improving their information system by building better software factories with agility.
     </p>
     <p>
-      <table class="missions">
+      <style>
+      #thumbnails {width:100%; margin-top:10px; padding-left:2%; /*border-bottom:2px solid red; */padding-bottom:20px;}
+
+      /*#thumbnails li {position:relative;
+      float:left;display:inline; width:24%;
+      text-align:center; margin-bottom:20px;}*/
+      </style>
+
+      <table class="missions" border="0">
         <tr>
-            <td class="mission_logo_cell"><img src="images/sg.gif"  class="mission_logo"/></td>
+            <td width="100" class="mission_logo_cell"><img src="images/sg.gif"  class="mission_logo"/></td>
+            <td class="mission_desc">
+              <ul id="thumbnails">
+                <li>Building data services with search capabilities over various existing data sources.
+                <li>APIs on various distributed storages built with Hadoop, HBase, SOLR, Hive, Spark and Spring.
+              </ul>
+            </td>
+            <td width="120" class="period top">2015 [10 months]</td>
+        </tr>
+        <tr>
             <td class="mission_logo_cell"><img src="images/canal.png"  class="mission_logo"/></td>
+            <td class="mission_desc">
+              <ul id="thumbnails">
+                <li>VOD Catalog content Editor for Canal+ Overseas distribution of streaming video.</li>
+                <li>Microservice architecture using NodeJS, AngularJS and CouchDB.</li>
+                <li>Functional tests with Fitnesse and Ruby.</li>
+              </ul>
+            </td>
+            <td class="period top">2014 [6 months]</td>
+        </tr>
+        <tr>
             <td class="mission_logo_cell"><img src="images/attijari.png"  class="mission_logo"/></td>
+            <td class="mission_desc">
+              <ul id="thumbnails">
+                <li>Enterprise & Personnal eBanking portals.</li>
+                <li>J2EE, Spring, Oracle, Websphere.</li>
+              </ul>
+            </td>
+            <td class="period top">2014 [6 months]</td>
+        </tr>
+        <tr>
             <td class="mission_logo_cell"><img src="images/corsair.png" class="mission_logo"/></td>
-        </tr>
-        <tr>
-            <td class="mission_name">2015 [since 6 months]</td>
-            <td class="mission_name">2014 [6 months]</td>
-            <td class="mission_name">2014 [6 months]</td>
-            <td class="mission_name">2013 [4 months]</td>
-        </tr>
-        <tr>
-            <td class="mission_desc">Benchmarking big data technologies to build the datalake (Hadoop, HBase, Spark, SOLR, ...).</td>
-            <td class="mission_desc">VOD Catalog content Editor (Microservices, NodeJS, AngularJS).</td>
-            <td class="mission_desc">Enterprise & Personnal web portals (J2EE, Spring, Oracle, Websphere).</td>
-            <td class="mission_desc">Third party services management platform (J2EE, Vaadin).</td>
+            <td class="mission_desc">
+              <ul id="thumbnails">
+                <li>Third party services management platform.
+                <li>J2EE, Vaadin, Lucene.</li>
+              </ul>
+            </td>
+            <td class="period top">2013 [4 months]</td>
         </tr>
       </table>
+
     </p>
+
     <p>
-      Other area of work
+      Other areas of work
       <ul>
         <li>Hortonworks Hadoop Trainer for <a href="http://www.octo.academy/fr/f/1-analyse-de-donnees-pour-hadoop-2-x-hortonworks-avec-pig-hive">OCTO Academy</a>
         <li>Part time research on a <a href="https://github.com/vocobox/vocobox">music information retrieval software</a>.
       </ul>
     </p>
 
+
     <p class="techno">
       Keywords : Polyglot developer, Agile, Continuous delivery, Machine Learning, Big Data
     </p>
+
 </div>
 
 <!-- ___ -->
@@ -416,7 +480,7 @@
 <!--______________________________________-->
 <hr/>
 <p><small>References will be given upon request.</small></p>
-<p><small>Last revision: August 2015.</small></p>
+<p><small>Last revision: August 2021.</small></p>
 
 <!--______________________________________-->
 
